@@ -1,0 +1,28 @@
+.series-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.series-card:hover {
+  transform: scale(1.05);
+}
+
+.series-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.series-card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+

@@ -1,0 +1,37 @@
+.carousel {
+    padding: 20px;
+  }
+  
+  .carousel h2 {
+    margin-left: 20px;
+  }
+  
+  .series-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 15px;
+  }
+  
+  .series-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+  .carousel {
+    padding: 20px 40px; 
+  }
+  
+  .carousel h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .series-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 16px; 
+  }
+  
